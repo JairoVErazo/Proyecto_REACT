@@ -1,0 +1,81 @@
+.logo1{
+    width: 10rem
+    
+}
+.logo2{
+    width: 50rem;
+}
+.titulos1{
+    font-size: 3.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #B0DD28;
+}
+.cont1{
+    display: flex;
+}
+.botton1{
+    display: flex;
+    justify-content: end;
+}
+.boton{
+    background: #B0DD28;
+    border-radius: 1rem;
+    border-style: none;
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 12rem;
+    height: 4.2rem;
+    box-shadow: 0 1.2rem 2rem -1rem rgba(166, 255, 0, 0.548);
+    cursor: pointer;
+}
+.fpage{
+    font-size: 5rem;
+    text-shadow: -0.1em 0em 0.3em rgba(166, 255, 0, 0.548)
+}
+
+/* Responsive*/ 
+
+@media (max-width:576px){
+    .cont1{
+        display: grid;
+    }
+    .titulos1{
+        font-size: 2.5rem;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .botton1{
+        font-size: 1rem;
+        display: flex;
+        justify-content: center;
+    }
+    .boton{
+        width: 14rem;
+        height: 5rem;
+        margin-bottom: -1.8rem;
+        font-size: 1.5rem;
+    }
+    .logo1{
+        width: 20rem;
+        margin-left: 1rem;
+        margin-bottom: -5rem;
+        margin-top: -4rem;
+
+    }
+    .logo2{
+        width: 20rem;
+        margin-bottom: 0.5rem;
+    }
+    .fpage{
+        font-size: 3em;
+    }
+    .fley{
+        font-size: 0.8rem;
+    }
+}
