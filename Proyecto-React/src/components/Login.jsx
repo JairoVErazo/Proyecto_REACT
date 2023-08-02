@@ -7,9 +7,9 @@ import '../assets/css/login.css'
 export default function Login() {
     const { loginWithRedirect } = useAuth0();
   return (
- <main className='bg-dark'> 
+         <main> 
  <section className='container'>
- <section className="row mt-md-4">
+ <section className="row mt-md-1">
             <div className="col-md-8 cont1">
                 <h1 className=" my-5 mx-3 titulos1 ">REACT JS - API</h1>
                 <img src={logo1} className='logo1' alt="imagen ilustrativa de rick and morty" />
@@ -20,12 +20,13 @@ export default function Login() {
             </div>
         </section>
         <section >
-            <div className="d-flex justify-content-center ">
+            <div className="d-flex justify-content-center" id='targeta'>
                 <img src={ logo2} className='logo2' alt="" />
                 {/* <img src={logo2} ClasName="logo2" alt=""> */}
             </div>
             <article className="d-flex justify-content-center"><h1 className="fpage text-white">FAN PAGE</h1></article>
             <article><p className="text-white fw-semibold d-flex justify-content-center fley">Grupo #1 FSJ18 Ⓒ Todos Los Derechos Reservados </p></article>
+        
         </section>
     </section>  
  
