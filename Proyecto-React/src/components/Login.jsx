@@ -20,7 +20,7 @@ export default function Login() {
             </div>
         </section>
         <section >
-            <div className="d-flex justify-content-center" id='targeta'>
+            <div className="d-flex justify-content-center">
                 <img src={ logo2} className='logo2' alt="" />
                 {/* <img src={logo2} ClasName="logo2" alt=""> */}
             </div>
