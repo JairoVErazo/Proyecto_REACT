@@ -1,10 +1,11 @@
 import React, { useState, useEffect } from "react";
-import { BrowserRouter, Link } from "react-router-dom";
+import { BrowserRouter, Link, Route, Routes } from "react-router-dom";
 import CharacterList from "./CharacterList";
 import Logout from './Logout';
 import logo1 from '../assets/img/logo1.png';
-import '../assets/css/header.css';
-
+import Footer from "./Footer";
+import Desarrolladores from "./Desarrolladores";
+import Home from "./Home";
 export default function Header() {
 
   return (
@@ -34,18 +35,14 @@ export default function Header() {
               <div className="collapse navbar-collapse" id="navbarNav">
                 <ul className="navbar-nav ms-auto">
                   <li className="nav-item">
-                    <Link className="nav-link" to="/characters">
-                      Personajes
+                  <Link to="/" className='nav-link'>Home</Link>
+                  </li>
+                  <li className="nav-item">
+                  <Link to="/CharacterList" className='nav-link'>Personajes</Link> <Link className="nav-link" to="/About Us">
                     </Link>
                   </li>
                   <li className="nav-item">
-                    <Link className="nav-link" to="/About Us">
-                      Sobre Nosotros
-                    </Link>
-                  </li>
-                  <li className="nav-item">
-                    <Link className="nav-link" to="/episodes">
-                      Episodes
+                   <Link to="/Desarrolladores" className='nav-link'>Desarrolladores</Link> <Link className="nav-link" to="/About Us">
                     </Link>
                   </li>
                   <li className="nav-item">
@@ -57,8 +54,12 @@ export default function Header() {
           </nav>
         </header>
         
-        <CharacterList /> {/* Aquí se incluye el componente CharacterList */}
-        <div className='container d-flex justify-content-around text-white'>Header</div>
+        <Routes>
+        <Route path='/' element={<Home />}/>
+        <Route path='/Desarrolladores' element={<Desarrolladores />}/>
+        <Route path='CharacterList' element={<CharacterList />}/>
+        </Routes>
+        <Footer /> 
       </BrowserRouter>
     </section>
   );

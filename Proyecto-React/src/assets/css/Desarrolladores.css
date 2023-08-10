@@ -1,0 +1,147 @@
+.logoCircular{
+    width: 14rem;
+    border-radius: 100%;
+
+}
+.text-greenf{
+    font-size: 3.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #B0DD28;
+    text-shadow: -0.1em 0em 0.5em rgba(166, 255, 0, 0.548)
+}
+.text-fsj{
+    font-size: 2.5rem;
+}
+.greenfhr{
+   background-color: #bfff00;
+   height: 5px;
+   border: none;
+   border-radius: 10px;
+   box-shadow: -0.1em 0em 0.5em rgba(166, 255, 0, 0.548);
+}
+
+/** cards integrantes */
+.flip-card {
+    perspective: 1000px;
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+  }
+  
+  .flip-card-inner {
+    width: 100%;
+    height: 32.5rem;
+    transform-style: preserve-3d;
+    transition: transform  1s;
+    transform: rotateY(0deg);
+  }
+  
+  .flip-card.flipped .flip-card-inner {
+    transform: rotateY(180deg);
+    
+  }
+  
+
+  .flip-card-front,
+  .flip-card-back {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    backface-visibility: hidden;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    
+  } 
+
+
+  .flip-card-front {
+    opacity: 1; /* Cambia esta línea */
+  }
+  
+  .flip-card-back {
+    transform: rotateY(180deg);
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  
+  .flip-card.flipped .flip-card-back {
+    opacity: 1;
+  }
+  
+  .flip-button {
+    background-color: white;
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    box-shadow: 0 0 8px 2px rgba(0, 0, 0, 0.138);
+  }
+  
+  .flip-button:hover {
+    background-color: #d6d6d6;
+  }
+  
+  .flip-targets{
+    width: 100%;
+    height: 27rem;
+    border-radius: 0px 0px 30px 30px;
+    background-color: white;
+    
+}
+
+.flip-targetblack{
+    width: 100%;
+    height: 7rem;
+    margin-top: -7rem;
+    display: flex;
+    justify-content: center;
+}
+
+.flip-targetcircular{
+    width: 13rem;
+    height: 13rem;
+    border-radius: 100%;
+    display: flex;
+    margin-top: 0.5rem;
+    justify-content: center;
+    align-items: center;
+}
+.flip-perfilCircular{
+    width: 11rem;
+    height: 11rem;
+    border-radius: 100%;
+}
+
+/* titulos card*/
+
+.flip-tartitulo{
+    margin-top: 7rem;
+}
+.flip-tartitulo h1{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.flip-tartitulo h3{
+    font-size: 1.2rem;
+}
+.flip-tartitulo p, a{
+    color: black;
+    font-size: 1rem;
+    text-decoration: none;
+}
+.flip-reseña{
+    margin-top: 7rem;
+    font-size: 1rem;
+}
+.flip-trayectoria{
+    margin-top: -0.7rem;
+}

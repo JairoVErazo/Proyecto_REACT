@@ -1,0 +1,98 @@
+[
+    {
+        "id":1,
+        "nombre": "Daniel Romero",
+        "profesion": "Programador Junior",
+        "contacto": {
+            "telefono": "30107903",
+            "correo": "abrahambamac345@gmail.com",
+            "userGitHub":"https://github.com/abrahambamac345",
+            "direction": "CIUDAD DE GUATEMALA, GUATEMALA"
+        },
+       "reseña":{
+        "description1": "¡Hola! Soy Abraham, tengo 20 años y estoy apasionado por el mundo de la tecnología y el diseño. Mi experiencia abarca una variedad de campos en diferentes disciplinas donde aún no me considero un experto, pero si como alguien que se adapta rápido y busca la manera de lograr su objetivo.",
+        "description2": "Mi trayectoria en la programación se basa en lenguajes compilados, desarrollo web, frameworks, y sistemas operativos…"
+       },
+       "imagen": "https://cdn.icon-icons.com/icons2/1879/PNG/512/iconfinder-1-avatar-2754574_120513.png"
+    },
+    {
+        "id":2,
+        "nombre": "Gilberto Bernal",
+        "profesion": "Programador Junior",
+        "contacto": {
+            "telefono": "30107903",
+            "correo": "abrahambamac345@gmail.com",
+            "userGitHub":"https://github.com/abrahambamac345",
+            "direction": "CIUDAD DE GUATEMALA, GUATEMALA"
+        },
+       "reseña":{
+        "description1": "¡Hola! Soy Abraham, tengo 20 años y estoy apasionado por el mundo de la tecnología y el diseño. Mi experiencia abarca una variedad de campos en diferentes disciplinas donde aún no me considero un experto, pero si como alguien que se adapta rápido y busca la manera de lograr su objetivo.",
+        "description2": "Mi trayectoria en la programación se basa en lenguajes compilados, desarrollo web, frameworks, y sistemas operativos…"
+       },
+       "imagen": "https://cdn.icon-icons.com/icons2/1879/PNG/512/iconfinder-1-avatar-2754574_120513.png"
+    },
+    {
+        "id":3,
+        "nombre": "Luis Chávez",
+        "profesion": "Programador Junior",
+        "contacto": {
+            "telefono": "30107903",
+            "correo": "abrahambamac345@gmail.com",
+            "userGitHub":"https://github.com/abrahambamac345",
+            "direction": "CIUDAD DE GUATEMALA, GUATEMALA"
+        },
+       "reseña":{
+        "description1": "¡Hola! Soy Abraham, tengo 20 años y estoy apasionado por el mundo de la tecnología y el diseño. Mi experiencia abarca una variedad de campos en diferentes disciplinas donde aún no me considero un experto, pero si como alguien que se adapta rápido y busca la manera de lograr su objetivo.",
+        "description2": "Mi trayectoria en la programación se basa en lenguajes compilados, desarrollo web, frameworks, y sistemas operativos…"
+       },
+       "imagen": "https://cdn.icon-icons.com/icons2/1879/PNG/512/iconfinder-1-avatar-2754574_120513.png"
+    },
+    {
+        "id":4,
+        "nombre": "César Reyes",
+        "profesion": "Programador Junior",
+        "contacto": {
+            "telefono": "30107903",
+            "correo": "abrahambamac345@gmail.com",
+            "userGitHub":"https://github.com/abrahambamac345",
+            "direction": "CIUDAD DE GUATEMALA, GUATEMALA"
+        },
+       "reseña":{
+        "description1": "¡Hola! Soy Abraham, tengo 20 años y estoy apasionado por el mundo de la tecnología y el diseño. Mi experiencia abarca una variedad de campos en diferentes disciplinas donde aún no me considero un experto, pero si como alguien que se adapta rápido y busca la manera de lograr su objetivo.",
+        "description2": "Mi trayectoria en la programación se basa en lenguajes compilados, desarrollo web, frameworks, y sistemas operativos…"
+       },
+       "imagen": "https://cdn.icon-icons.com/icons2/1879/PNG/512/iconfinder-1-avatar-2754574_120513.png"
+    },
+    {
+        "id":5,
+        "nombre": "Jairo Erazo",
+        "profesion": "Programador Junior",
+        "contacto": {
+            "telefono": "30107903",
+            "correo": "abrahambamac345@gmail.com",
+            "userGitHub":"https://github.com/abrahambamac345",
+            "direction": "CIUDAD DE GUATEMALA, GUATEMALA"
+        },
+       "reseña":{
+        "description1": "¡Hola! Soy Abraham, tengo 20 años y estoy apasionado por el mundo de la tecnología y el diseño. Mi experiencia abarca una variedad de campos en diferentes disciplinas donde aún no me considero un experto, pero si como alguien que se adapta rápido y busca la manera de lograr su objetivo.",
+        "description2": "Mi trayectoria en la programación se basa en lenguajes compilados, desarrollo web, frameworks, y sistemas operativos…"
+       },
+       "imagen": "https://cdn.icon-icons.com/icons2/1879/PNG/512/iconfinder-1-avatar-2754574_120513.png"
+    },
+    {
+        "id":6,
+        "nombre": "Abraham Bámaca",
+        "profesion": "Programador Junior",
+        "contacto": {
+            "telefono": " +502 30107903",
+            "correo": "abrahambamac345@gmail.com",
+            "userGitHub":"https://github.com/abrahambamac345",
+            "direction": "CIUDAD DE GUATEMALA, GUATEMALA"
+        },
+       "reseña":{
+        "description1": "¡Hola! Soy Abraham, tengo 20 años y estoy apasionado por el mundo de la tecnología y el diseño. Mi experiencia abarca una variedad de campos en diferentes disciplinas donde aún no me considero un experto, pero si como alguien que se adapta rápido y busca la manera de lograr su objetivo.",
+        "description2": "Mi trayectoria en la programación se basa en lenguajes compilados, desarrollo web, frameworks, y sistemas operativos…"
+       },
+       "imagen": "https://i.ibb.co/8PZHYwL/perfil1.png"
+    }
+]
