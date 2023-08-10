@@ -1,22 +1,25 @@
-import Header from "./components/Header"
-import Login from "./components/Login"
-import { useAuth0 } from "@auth0/auth0-react"
+import React from "react";
+import Header from "./components/Header";
+import Login from "./components/Login";
+import Footer from "./components/Footer"; 
+import { useAuth0 } from "@auth0/auth0-react";
 
 function App() {
-    console.log(window.location.origin);
+  console.log(window.location.origin);
 
-    const {isAuthenticated} = useAuth0();
+  const { isAuthenticated } = useAuth0();
+  
   return (
-    <>
-      {
-      isAuthenticated ? (
-        <Header/>
+    <div> 
+      {isAuthenticated ? (
+        <Header />
       ) : (
-       <Login/>
-      )
-    }
-    </>
-  )
+        <Login />
+      )}
+
+      <Footer /> 
+    </div>
+  );
 }
 
-export default App
+export default App;
