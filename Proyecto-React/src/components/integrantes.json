@@ -52,14 +52,14 @@
         "nombre": "César Reyes",
         "profesion": "Programador Junior",
         "contacto": {
-            "telefono": "30107903",
-            "correo": "abrahambamac345@gmail.com",
-            "userGitHub":"https://github.com/abrahambamac345",
-            "direction": "CIUDAD DE GUATEMALA, GUATEMALA"
+            "telefono": "7998-1154",
+            "correo": "reyessv503@gmail.com",
+            "userGitHub":"https://github.com/CesarReyes2023",
+            "direction": "San Juan Opico, La Libertad, El Salvador"
         },
        "reseña":{
-        "description1": "¡Hola! Soy Abraham, tengo 20 años y estoy apasionado por el mundo de la tecnología y el diseño. Mi experiencia abarca una variedad de campos en diferentes disciplinas donde aún no me considero un experto, pero si como alguien que se adapta rápido y busca la manera de lograr su objetivo.",
-        "description2": "Mi trayectoria en la programación se basa en lenguajes compilados, desarrollo web, frameworks, y sistemas operativos…"
+        "description1": "¡Hola! Mi Nombre es Cesar Reyes, tengo 27 años y el mundo de la tecnologia siempre a sido lo que mas me ha llamado la atencion desde pequeño. Tengo varios diplomas en el area de informatica. Tengo conocimientos en programacion Java,Redes y Ciberseguiridad ya que llevaba esa carrera pero no he podido continuar asi que ahora estoy estudiando Desarrollo Full Stack, Tengo experiencia en varios campos pero siempre he sido una persona que busca aprender mas y mas.",
+        "description2": "En el Area de informatica he experimentado Mantenimiento de pc, Sistemas Operativos, Redes, Ciberseguridad, Java y ahora que Estamos aprendiendo PHP entre otras cosas tambien tengo experiencia en base de datos con tablas relacionadas y no relacionadas con MYSQL y MYSQL Workbench tambien en automatizacion Anywhere, se que algun dia podre emplear todo lo aprendido pero siempre quiero seguir aprendiendo aunque el tiempo a veces no me lo permite.  …"
        },
        "imagen": "https://cdn.icon-icons.com/icons2/1879/PNG/512/iconfinder-1-avatar-2754574_120513.png"
     },
