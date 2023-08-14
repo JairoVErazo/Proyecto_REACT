@@ -53,13 +53,13 @@
         "profesion": "Programador Junior",
         "contacto": {
             "telefono": "7998-1154",
-            "correo": "reyessv503@gmail.com",
             "userGitHub":"https://github.com/CesarReyes2023",
+            "correo": "reyessv503@gmail.com",
             "direction": "San Juan Opico, La Libertad, El Salvador"
         },
        "reseña":{
         "description1": "¡Hola! Mi Nombre es Cesar Reyes, tengo 27 años y el mundo de la tecnologia siempre a sido lo que mas me ha llamado la atencion desde pequeño. Tengo varios diplomas en el area de informatica. Tengo conocimientos en programacion Java,Redes y Ciberseguiridad ya que llevaba esa carrera pero no he podido continuar asi que ahora estoy estudiando Desarrollo Full Stack, Tengo experiencia en varios campos pero siempre he sido una persona que busca aprender mas y mas.",
-        "description2": "En el Area de informatica he experimentado Mantenimiento de pc, Sistemas Operativos, Redes, Ciberseguridad, Java y ahora que Estamos aprendiendo PHP entre otras cosas tambien tengo experiencia en base de datos con tablas relacionadas y no relacionadas con MYSQL y MYSQL Workbench tambien en automatizacion Anywhere, se que algun dia podre emplear todo lo aprendido pero siempre quiero seguir aprendiendo aunque el tiempo a veces no me lo permite.  …"
+        "description2": "En el Area de informatica he experimentado Mantenimiento de pc, Sistemas Operativos, Redes, Ciberseguridad, Java y ahora que Estamos aprendiendo PHP entre otras cosas tambien tengo experiencia en base de datos con tablas relacionadas y no relacionadas con MYSQL y MYSQL Workbench. …"
        },
        "imagen": "https://cdn.icon-icons.com/icons2/1879/PNG/512/iconfinder-1-avatar-2754574_120513.png"
     },
