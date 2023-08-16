@@ -5,7 +5,6 @@ import Entretenamiento from './Entretenamiento';
 export default function Home() {
   return (
   <>
-
     <Entretenamiento />
     <Series />
     </>

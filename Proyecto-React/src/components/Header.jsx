@@ -12,7 +12,7 @@ export default function Header() {
   return (
     <section>
       <BrowserRouter>
-        <header className="bg-white">
+        <header className="bg-white"> {/* hacer esto responsive */}
           <nav className="navbar navbar-expand-lg navbar-light ">
             <div className="container">
               <a className="navbar-brand" href="#/">
