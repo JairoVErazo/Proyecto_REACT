@@ -1,6 +1,6 @@
 /* header.css */
 
-header {
+/* header {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -33,4 +33,22 @@ header {
   .nav-links li a:hover {
     color: yellow;
   }
-  
+   */
+
+   .rimotext{
+    color: #00A4B8;
+    font-size: 1.4rem;
+    list-style: none;
+    font-weight: bold;
+   }
+
+   .rimotext:hover{
+    background-color: #00A4B8;
+    color: white;
+   }
+   ul{
+    list-style: none;
+    gap: 0.8rem;
+    display: flex;
+    
+   }

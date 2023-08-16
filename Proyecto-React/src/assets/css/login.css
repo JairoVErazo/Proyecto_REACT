@@ -60,8 +60,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 12rem;
-    height: 4.2rem;
+    width: 9rem;
+    height: 3rem;
     box-shadow: 0 1.2rem 2rem -1rem rgba(166, 255, 0, 0.548);
     cursor: pointer;
 }
