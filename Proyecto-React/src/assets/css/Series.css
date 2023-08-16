@@ -24,6 +24,15 @@
 
   }
   
+
+  .search-per{
+    background-color: #00A4B8;
+  }
+
+
+
+
+
   @keyframes shake {
     /* from start */
     0% { transform: skewX(-15deg); }

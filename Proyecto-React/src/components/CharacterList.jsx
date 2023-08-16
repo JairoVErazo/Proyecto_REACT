@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Character from "./Character.jsx";
 import PropTypes from "prop-types";
-
+import '../assets/css/Series.css';
 function NavPage({ page, setPage }) {
   return (
     <div className="d-flex justify-content-between align-items-center">
@@ -56,8 +56,9 @@ function CharacterList() {
 
   return (
     <div className="container">
-  <div className="text-center mb-4"> 
+  <div className="text-center"> 
     <input
+    className=" form-control search-per my-5 py-3 fs-5"
       type="text"
       placeholder="Buscar personajes"
       value={searchTerm}
@@ -71,7 +72,7 @@ function CharacterList() {
     <div className="row">
       {characters.map((character) => {
         return (
-          <div className="col-md-3" key={character.id}>
+          <div className="col-md-3 my-2" key={character.id}>
             <Character character={character} />
           </div>
         );
