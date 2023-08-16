@@ -11,7 +11,7 @@ export default function Header() {
   return (
     <section>
       <BrowserRouter>
-        <header>
+        <header className="container ">
           <nav className="navbar navbar-expand-lg navbar-light bg-white">
             <div className="container">
               <a className="navbar-brand" href="#/">
@@ -42,7 +42,7 @@ export default function Header() {
                     </Link>
                   </li>
                   <li className="nav-item">
-                   <Link to="/Desarrolladores" className='nav-link'>Desarrolladores</Link> <Link className="nav-link" to="/About Us">
+                  <Link to="/Desarrolladores" className='nav-link'>Desarrolladores</Link> <Link className="nav-link" to="/About Us">
                     </Link>
                   </li>
                   <li className="nav-item">

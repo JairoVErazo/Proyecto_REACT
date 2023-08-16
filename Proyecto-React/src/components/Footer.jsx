@@ -2,22 +2,24 @@ import React from 'react';
 
 export default function Footer() {
   return (
-    <footer>
+    <footer className='container'>
       <div className="container">
         <div className="footer-content">
           <div className="footer-logo">
             <img src="/path/to/your/logo.png" alt="Footer Logo" />
           </div>
           <div className="footer-links">
-            <ul>
-              <li><a href="#">Contact Us</a></li>
-              <li><a href="#">Privacy Policy</a></li>
-              <li><a href="#">Terms of Service</a></li>
+          <article className="d-flex justify-content-center"><h1 className="fpage text-white">FAN PAGE</h1></article>
+            <article><p className="text-white fw-semibold d-flex justify-content-center fley">Grupo #1 FSJ18 Ⓒ Todos Los Derechos Reservados </p></article>
+            <ul className='text-center'>
+              <li><a className='text-white' hreCf="#">Terms & policies</a></li>
+              <li><a className='text-white' href="#">Privacy policy</a></li>
+              <li><a className='text-white' href="#">Terms of Service</a></li>
             </ul>
+            
           </div>
         </div>
-        <article className="d-flex justify-content-center"><h1 className="fpage text-white">FAN PAGE</h1></article>
-            <article><p className="text-white fw-semibold d-flex justify-content-center fley">Grupo #1 FSJ18 Ⓒ Todos Los Derechos Reservados </p></article>
+
         </div>
     </footer>
   );
