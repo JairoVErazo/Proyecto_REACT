@@ -24,6 +24,33 @@
 
   }
   
+.numerador-pagina{
+
+ background: #B0DD28;
+    border-radius: 0.9rem;
+    border-style: none;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 7rem;
+    box-shadow: 0 1.2rem 2rem -1rem rgba(166, 255, 0, 0.548);
+    cursor: pointer;
+}
+
+.numerador-pagina:hover{
+  background-color: #00A4B8;
+  color: white;
+}
+
+.numerador{
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
 
   .search-per{
     background-color: #00A4B8;

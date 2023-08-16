@@ -11,7 +11,7 @@ export default function Header() {
   return (
     <section>
       <BrowserRouter>
-        <header className="container ">
+        <header>
           <nav className="navbar navbar-expand-lg navbar-light bg-white">
             <div className="container">
               <a className="navbar-brand" href="#/">
