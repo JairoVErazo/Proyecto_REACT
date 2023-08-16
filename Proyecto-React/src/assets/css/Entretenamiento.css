@@ -1,0 +1,25 @@
+.portal-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: fill;
+    background-size: cover;
+}
+.portal-image img{
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+}
+
+.space-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: fill;
+    background-size: cover;
+}
+.space-image img{
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+}

@@ -1,0 +1,36 @@
+#effecto {
+    position: relative;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    font-weight: 900;
+    text-decoration: none;
+    color: white;
+    
+    
+    background-size: 120% 100%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+    -ms-background-clip: text;
+    -ms-text-fill-color: transparent;
+    background-clip: text;
+    background-image: linear-gradient(45deg, 
+                      #7794ff, 
+                      #44107A,
+                      #FF1361,
+                      #FFF800);
+    animation: .9s shake infinite alternate; 
+
+  }
+  
+  @keyframes shake {
+    /* from start */
+    0% { transform: skewX(-15deg); }
+    5% { transform: skewX(15deg); }
+    10% { transform: skewX(-15deg); }
+    15% { transform: skewX(15deg); }
+    20% { transform: skewX(0deg); }
+    /* to the end */
+    100% { transform: skewX(0deg); }  
+  }
