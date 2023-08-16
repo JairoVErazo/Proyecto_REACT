@@ -34,35 +34,51 @@ function CharacterList() {
   const [characters, setCharacters] = useState([]);
   const [loading, setLoading] = useState(true);
   const [page, setPage] = useState(1);
+  const [searchTerm, setSearchTerm] = useState(""); 
+
   useEffect(() => {
     async function fetchData() {
       const response = await fetch(
         "https://rickandmortyapi.com/api/character?page=" + page
       );
       const data = await response.json();
+
+      
+      const filteredCharacters = data.results.filter(character =>
+        character.name.toLowerCase().includes(searchTerm.toLowerCase())
+      );
+
       setLoading(false);
-      setCharacters(data.results);
+      setCharacters(filteredCharacters);
     }
     fetchData();
-  }, [page]);
+  }, [page, searchTerm]);
 
   return (
     <div className="container">
-      <NavPage page={page} setPage={setPage} />
-      {loading ? (
-        <h1>Cargando...</h1>
-      ) : (
-        <div className="row">
-          {characters.map((character) => {
-            return (
-              <div className="col-md-3" key={character.id}>
-                <Character character={character} />
-              </div>
-            );
-          })}
-        </div>
-      )}
+  <div className="text-center mb-4"> 
+    <input
+      type="text"
+      placeholder="Buscar personajes"
+      value={searchTerm}
+      onChange={(e) => setSearchTerm(e.target.value)}
+    />
+  </div>
+  <NavPage page={page} setPage={setPage} />
+  {loading ? (
+    <h1>Cargando...</h1>
+  ) : (
+    <div className="row">
+      {characters.map((character) => {
+        return (
+          <div className="col-md-3" key={character.id}>
+            <Character character={character} />
+          </div>
+        );
+      })}
     </div>
+  )}
+</div>
   );
 }
 

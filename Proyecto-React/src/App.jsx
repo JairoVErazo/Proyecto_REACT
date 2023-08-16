@@ -1,7 +1,6 @@
 import React from "react";
 import Header from "./components/Header";
-import Login from "./components/Login";
-import Footer from "./components/Footer"; 
+import Login from "./components/Login"; 
 import { useAuth0 } from "@auth0/auth0-react";
 
 function App() {
