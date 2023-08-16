@@ -2,13 +2,11 @@ import React from 'react';
 
 export default function Footer() {
   return (
-    <footer className='container'>
+    <footer>  
+      <hr className="greenfhr my-4"/>
       <div className="container">
         <div className="footer-content">
-          <div className="footer-logo">
-            <img src="/path/to/your/logo.png" alt="Footer Logo" />
-          </div>
-          <div className="footer-links">
+                    <div className="footer-links">
           <article className="d-flex justify-content-center"><h1 className="fpage text-white">FAN PAGE</h1></article>
             <article><p className="text-white fw-semibold d-flex justify-content-center fley">Grupo #1 FSJ18 Ⓒ Todos Los Derechos Reservados </p></article>
             <ul className='text-center'>
