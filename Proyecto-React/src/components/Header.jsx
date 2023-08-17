@@ -5,6 +5,7 @@ import Logout from './Logout';
 import logo1 from '../assets/img/logo1.png';
 import Footer from "./Footer";
 import Desarrolladores from "./Desarrolladores";
+import Location from "./Location";
 import Home from "./Home";
 export default function Header() {
 
@@ -46,6 +47,10 @@ export default function Header() {
                     </Link>
                   </li>
                   <li className="nav-item">
+                  <Link to="/Location" className='nav-link'>WikiLocations</Link> <Link className="nav-link" to="/About Us">
+                    </Link>
+                  </li>
+                  <li className="nav-item">
                     <Logout />
                   </li>
                 </ul>
@@ -59,6 +64,7 @@ export default function Header() {
         <Routes>
         <Route path='/' element={<Home />}/>
         <Route path='/Desarrolladores' element={<Desarrolladores />}/>
+        <Route path='/Location' element={<Location/>}/>
         <Route path='CharacterList' element={<CharacterList />}/>
         </Routes>
         <Footer /> 
