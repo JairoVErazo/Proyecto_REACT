@@ -45,13 +45,14 @@ export default function Header() {
                     </Link>
                   </li>
                   <li className="nav-item">
-                  <Link to="/Desarrolladores" className='rimotext'>Desarrolladores|</Link> <Link className="nav-link" to="/About Us">
-                    </Link>
-                  </li>
-                  <li className="nav-item">
                   <Link to="/Location" className='rimotext'>WikiLocations|</Link> <Link className="nav-link" to="/About Us">
                     </Link>
                   </li>
+                  <li className="nav-item">
+                  <Link to="/Desarrolladores" className='rimotext'>Desarrolladores|</Link> <Link className="nav-link" to="/About Us">
+                    </Link>
+                  </li>
+  
                   <li className="nav-item logout-auth0">
                     <Logout />
                   </li>
