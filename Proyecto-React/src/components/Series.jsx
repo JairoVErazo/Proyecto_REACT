@@ -11,14 +11,12 @@ const temporadas = "Incluye toda las temporadas";
 export default function Series() {
   return (
     
-    <div>
-        <div className='text-white text-center fs-1 p-4' id='effecto'>Ecuentre la serie de Rick & Morty aqui!</div>
-
-
-        <div className='row container-fluid justify-content-around'>
-        <div className="col-sm-3 card" >
-            <img src={Netflix} className="card-img-top" alt="Netflix" />
-            <div class="card-body">
+    <div className='container'>
+        <div className='text-white text-center fs-1 py-4' id='effecto'>Ecuentre la serie de Rick & Morty aqui!</div>
+        <div className='row  d-flex justify-content-around g-4'>
+        <div className="col-md-3 card" >
+            <img src={Netflix} className="card-img-top my-3" alt="Netflix" />
+            <div className="card-body">
                 <h5 className="card-title">Rick & Morty en Netflix</h5>
                 <p className="card-text">{temporadas}, disponible dependiendo de tu pais</p>
                 <p className="card-text">Se aplican cargos</p>
@@ -27,8 +25,8 @@ export default function Series() {
         </div>
 
         <div className="col-sm-3 card">
-            <img src={SPL} className="card-img-top" alt="SmartersPlayerLite" />
-            <div class="card-body">
+            <img src={SPL} className="card-img-top my-3" alt="SmartersPlayerLite" />
+            <div className="card-body">
                 <h5 className="card-title">Rick & Morty en Smarters Player Lite</h5>
                 <p className="card-text">{temporadas}</p>
                 <p className="card-text">Se aplican cargos</p>
@@ -37,7 +35,7 @@ export default function Series() {
         </div>
 
         <div className="col-sm-3 card">
-            <img src={HBOMax} className="card-img-top " alt="HBOMax" />
+            <img src={HBOMax} className="card-img-top my-3" alt="HBOMax" />
             <div class="card-body">
                 <h5 className="card-title">Rick & Morty en HBOMax</h5>
                 <p className="card-text">{temporadas}</p>

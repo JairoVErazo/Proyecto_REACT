@@ -6,18 +6,18 @@ import RickMortySpace from "../assets/img/rickandmortyspace.jpeg"
 
 export default function Entretenamiento() {
   return (
-    <div>
-        <div className='row container-fluid justify-content-around py-5'>
+    <div className='container'>
+        <div className='row d-flex justify-content-around my-5 gap-4'>
 
-          <div className='portal-image col-sm-3'>
+          <div className='portal-image col-md-3 '>
             <img src={RickMortyPortal} alt="portal" />
           </div>
 
-            <div className='col-sm-3'>
-                <p><iframe width="315" height="300" src="https://www.youtube.com/embed/Jvb3gcVTfDg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></p>
+            <div className='col-md-3  portal-image'>
+                <p><iframe className='video-y' src="https://www.youtube.com/embed/Jvb3gcVTfDg" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></p>
             </div>
 
-            <div className='space-image col-sm-3'>
+            <div className='space-image col-md-3 '>
             <img src={RickMortySpace} alt="space" />
           </div>
 

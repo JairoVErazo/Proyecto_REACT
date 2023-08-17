@@ -9,7 +9,7 @@ export default function Footer() {
                     <div className="footer-links">
           <article className="d-flex justify-content-center"><h1 className="fpage text-white">FAN PAGE</h1></article>
             <article><p className="text-white fw-semibold d-flex justify-content-center fley">Grupo #1 FSJ18 Ⓒ Todos Los Derechos Reservados </p></article>
-            <ul className='text-center'>
+            <ul className='text-center d-flex justify-content-center me-4'>
               <li><a className='text-white' hreCf="#">Terms & policies</a></li>
               <li><a className='text-white' href="#">Privacy policy</a></li>
               <li><a className='text-white' href="#">Terms of Service</a></li>
