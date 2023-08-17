@@ -60,7 +60,7 @@ console.log(desarrolladores)
                                    <h3 className="text-center mb-2"> {integrantes.profesion} </h3>
                                    <p className=""><i className="fa-solid fa-phone"></i> {integrantes.contacto.telefono} </p>
                                    <p><i className="fa-solid fa-envelope"></i> {integrantes.contacto.correo}</p>
-                                   <a href={integrantes.contacto.userGitHub}><i className="fa-brands fa-github mb-3"></i> abrahambamac345</a>
+                                   <a href={integrantes.contacto.userGitHub}><i className="fa-brands fa-github mb-3"></i> {integrantes.contacto.github} </a>
                                    <p>
                                      <i className="fa-solid fa-house"></i> {integrantes.contacto.direction} 
                                    </p>

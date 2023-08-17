@@ -4,14 +4,14 @@
         "nombre": "Daniel Romero",
         "profesion": "Programador Junior",
         "contacto": {
-            "telefono": "30107903",
-            "correo": "abrahambamac345@gmail.com",
-            "userGitHub":"https://github.com/abrahambamac345",
-            "direction": "CIUDAD DE GUATEMALA, GUATEMALA"
+            "telefono": "+503 78560922",
+            "correo": "daniel_oswaldooo@hotmail.com",
+            "userGitHub":"https://github.com/danieloswaldooo",
+            "github":"danieloswaldooo",
+            "direction": "San Salvador, Salvador"
         },
        "reseña":{
-        "description1": "¡Hola! Soy Abraham, tengo 20 años y estoy apasionado por el mundo de la tecnología y el diseño. Mi experiencia abarca una variedad de campos en diferentes disciplinas donde aún no me considero un experto, pero si como alguien que se adapta rápido y busca la manera de lograr su objetivo.",
-        "description2": "Mi trayectoria en la programación se basa en lenguajes compilados, desarrollo web, frameworks, y sistemas operativos…"
+        "description1": "Mi nombre es Daniel Romero, tengo 25 años. Hay ciertas razones que me atraen aprender a desarrollar, como el desafío intelectual, la creatividad y la oportunidad de aprender continuamente. Mi misión es poder aprender a crear sitios web de principio a fin."
        },
        "imagen": "https://cdn.icon-icons.com/icons2/1879/PNG/512/iconfinder-1-avatar-2754574_120513.png"
     },
@@ -20,29 +20,14 @@
         "nombre": "Gilberto Bernal",
         "profesion": "Programador Junior",
         "contacto": {
-            "telefono": "30107903",
-            "correo": "abrahambamac345@gmail.com",
-            "userGitHub":"https://github.com/abrahambamac345",
-            "direction": "CIUDAD DE GUATEMALA, GUATEMALA"
+            "telefono": "+503 7867-9469",
+            "correo": "gilbertoh911@gmail.com",
+            "userGitHub":"https://github.com/GilbertoBernal",
+            "github":"GilbertoBernal",
+            "direction": "El Salvador"
         },
        "reseña":{
-        "description1": "¡Hola! Soy Abraham, tengo 20 años y estoy apasionado por el mundo de la tecnología y el diseño. Mi experiencia abarca una variedad de campos en diferentes disciplinas donde aún no me considero un experto, pero si como alguien que se adapta rápido y busca la manera de lograr su objetivo.",
-        "description2": "Mi trayectoria en la programación se basa en lenguajes compilados, desarrollo web, frameworks, y sistemas operativos…"
-       },
-       "imagen": "https://cdn.icon-icons.com/icons2/1879/PNG/512/iconfinder-1-avatar-2754574_120513.png"
-    },
-    {
-        "id":3,
-        "nombre": "Luis Chávez",
-        "profesion": "Programador Junior",
-        "contacto": {
-            "telefono": "30107903",
-            "correo": "abrahambamac345@gmail.com",
-            "userGitHub":"https://github.com/abrahambamac345",
-            "direction": "CIUDAD DE GUATEMALA, GUATEMALA"
-        },
-       "reseña":{
-        "description1": "¡Hola! Soy Abraham, tengo 20 años y estoy apasionado por el mundo de la tecnología y el diseño. Mi experiencia abarca una variedad de campos en diferentes disciplinas donde aún no me considero un experto, pero si como alguien que se adapta rápido y busca la manera de lograr su objetivo.",
+        "description1": "¡Hola! Soy Gilberto Bernal, tengo 32 años y siempre me gusta mucho los video juegos y la manera como se crean las aplicaciones y por eso me he dispuesto a incursionar por este mundo de la programación y creación de páginas para que las personas tengan una grata expedición a la hora de ver una página y no sea la de siempre fanpage que cualquiera tiene",
         "description2": "Mi trayectoria en la programación se basa en lenguajes compilados, desarrollo web, frameworks, y sistemas operativos…"
        },
        "imagen": "https://cdn.icon-icons.com/icons2/1879/PNG/512/iconfinder-1-avatar-2754574_120513.png"
@@ -52,30 +37,30 @@
         "nombre": "César Reyes",
         "profesion": "Programador Junior",
         "contacto": {
-            "telefono": "7998-1154",
+            "telefono": "+503 7262-4930",
             "userGitHub":"https://github.com/CesarReyes2023",
+            "github":"CesarReyes2023",
             "correo": "reyessv503@gmail.com",
             "direction": "San Juan Opico, La Libertad, El Salvador"
         },
        "reseña":{
-        "description1": "¡Hola! Mi Nombre es Cesar Reyes, tengo 27 años y el mundo de la tecnologia siempre a sido lo que mas me ha llamado la atencion desde pequeño. Tengo varios diplomas en el area de informatica. Tengo conocimientos en programacion Java,Redes y Ciberseguiridad ya que llevaba esa carrera pero no he podido continuar asi que ahora estoy estudiando Desarrollo Full Stack, Tengo experiencia en varios campos pero siempre he sido una persona que busca aprender mas y mas.",
-        "description2": "En el Area de informatica he experimentado Mantenimiento de pc, Sistemas Operativos, Redes, Ciberseguridad, Java y ahora que Estamos aprendiendo PHP entre otras cosas tambien tengo experiencia en base de datos con tablas relacionadas y no relacionadas con MYSQL y MYSQL Workbench. …"
+        "description1": "¡Hola! Mi Nombre es Cesar Reyes, tengo 27 años y el mundo de la tecnologia siempre a sido lo que mas me ha llamado la atencion desde pequeño. Tengo varios diplomas en el area de informatica. Tengo conocimientos en programacion Java,Redes y Ciberseguiridad ya que llevaba esa carrera pero no he podido continuar asi que ahora estoy estudiando Desarrollo Full Stack, Tengo experiencia en varios campos pero siempre he sido una persona que busca aprender mas y mas."
        },
        "imagen": "https://cdn.icon-icons.com/icons2/1879/PNG/512/iconfinder-1-avatar-2754574_120513.png"
     },
     {
         "id":5,
         "nombre": "Jairo Erazo",
-        "profesion": "Programador Junior",
+        "profesion": "Estudiante de Ingenieria",
         "contacto": {
-            "telefono": "30107903",
-            "correo": "abrahambamac345@gmail.com",
-            "userGitHub":"https://github.com/abrahambamac345",
-            "direction": "CIUDAD DE GUATEMALA, GUATEMALA"
+            "telefono": "76409065",
+            "correo": "jairoverazo1414@gmail.com",
+            "userGitHub":"https://github.com/JairoVErazo",
+            "github":"JairoVErazo",
+            "direction": "El Salvador"
         },
        "reseña":{
-        "description1": "¡Hola! Soy Abraham, tengo 20 años y estoy apasionado por el mundo de la tecnología y el diseño. Mi experiencia abarca una variedad de campos en diferentes disciplinas donde aún no me considero un experto, pero si como alguien que se adapta rápido y busca la manera de lograr su objetivo.",
-        "description2": "Mi trayectoria en la programación se basa en lenguajes compilados, desarrollo web, frameworks, y sistemas operativos…"
+        "description1": "¡Hola! Soy Gilberto Bernal, tengo 32 años y siempre me gusta mucho los video juegos y la manera como se crean las aplicaciones y por eso me he dispuesto a incursionar por este mundo de la programación y creación de páginas para que las personas tengan una grata expedición a la hora de ver una página y no sea la de siempre fanpage que cualquiera tiene."
        },
        "imagen": "https://cdn.icon-icons.com/icons2/1879/PNG/512/iconfinder-1-avatar-2754574_120513.png"
     },
@@ -87,11 +72,11 @@
             "telefono": " +502 30107903",
             "correo": "abrahambamac345@gmail.com",
             "userGitHub":"https://github.com/abrahambamac345",
+            "github":"abrahambamac345",
             "direction": "CIUDAD DE GUATEMALA, GUATEMALA"
         },
        "reseña":{
-        "description1": "¡Hola! Soy Abraham, tengo 20 años y estoy apasionado por el mundo de la tecnología y el diseño. Mi experiencia abarca una variedad de campos en diferentes disciplinas donde aún no me considero un experto, pero si como alguien que se adapta rápido y busca la manera de lograr su objetivo.",
-        "description2": "Mi trayectoria en la programación se basa en lenguajes compilados, desarrollo web, frameworks, y sistemas operativos…"
+        "description1": "Soy estudiante de Ingeniería en Desarrollo de Software tengo 21 años, una de las principales motivaciones para desarrollarse software siempre han sido el hecho de inovar continuamente y los desafios que esta requiere a nivel intelectual y disciplinario, mi meta a futuro a convertirme en un desarrollador que pueda desenvolverse en cualquier entorno de desarrollo al mas alto nivel."
        },
        "imagen": "https://i.ibb.co/8PZHYwL/perfil1.png"
     }
