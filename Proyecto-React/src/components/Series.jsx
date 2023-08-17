@@ -20,7 +20,7 @@ export default function Series() {
                 <h5 className="card-title">Rick & Morty en Netflix</h5>
                 <p className="card-text">{temporadas}, disponible dependiendo de tu pais</p>
                 <p className="card-text">Se aplican cargos</p>
-                <a href="https://www.netflix.com/in/title/80014749" className="btn btn-primary " target="_blank">Aplicar</a>
+                <a href="https://www.netflix.com/in/title/80014749" className="btn text-white" style={{ background: '#78BE20'}} target="_blank">Aplicar</a>
             </div>
         </div>
 
@@ -30,7 +30,7 @@ export default function Series() {
                 <h5 className="card-title">Rick & Morty en Smarters Player Lite</h5>
                 <p className="card-text">{temporadas}</p>
                 <p className="card-text">Se aplican cargos</p>
-                <a href="https://www.iptvsmarters.com/" className="btn btn-primary" target="_blank">Aplicar</a>
+                <a href="https://www.iptvsmarters.com/" className="btn text-white" style={{ background: '#78BE20'}} target="_blank">Aplicar</a>
             </div>
         </div>
 
@@ -40,7 +40,7 @@ export default function Series() {
                 <h5 className="card-title">Rick & Morty en HBOMax</h5>
                 <p className="card-text">{temporadas}</p>
                 <p className="card-text">Se aplican cargos</p>
-                <a href="https://www.hbomax.com/sv/es/series/urn:hbo:series:GXkRjxwjR68PDwwEAABKJ?countryRedirect=1" className="btn btn-primary" target="_blank">Aplicar</a>
+                <a href="https://www.hbomax.com/sv/es/series/urn:hbo:series:GXkRjxwjR68PDwwEAABKJ?countryRedirect=1" className="btn text-white" style={{ background: '#78BE20'}} target="_blank">Aplicar</a>
             </div>
         </div>
         </div>
